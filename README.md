@@ -9,6 +9,15 @@ By default, 10 threads will be set up and run, simply logging out to the console
 
 In order to test SIGTERM handing, send a kill -15 instruction to the pid of the process. This is logged to the console at startup for convenience. 
 
+e.g. 
+
+    ====== Started KFA Sigterm Handler ======
+    pid = 25684
+    HUP: kill -1 25684
+    SIGINT: kill -2 25684
+    SIGTERM: kill -15 25684
+    SIGKILL: kill -9 25684
+
 When working correctly, after SIGTERM is sent, the following output will be seen 
 
     Shutdown hook activated
