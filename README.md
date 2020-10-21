@@ -11,20 +11,20 @@ In order to test SIGTERM handing, send a kill -15 instruction to the pid of the 
 
 When working correctly, after SIGTERM is sent, the following output will be seen 
 
-Shutdown hook activated
-pool-1-thread-2 Exiting
-pool-1-thread-8 Exiting
-pool-1-thread-9 Exiting
-pool-1-thread-6 Exiting
-pool-1-thread-4 Exiting
-pool-1-thread-3 Exiting
-pool-1-thread-10 Exiting
-pool-1-thread-1 Exiting
-pool-1-thread-5 Exiting
-pool-1-thread-7 Exiting
-====== Ended KFA Sigterm Handler ======
-Waiting for threads to end...
-All threads ended
+    Shutdown hook activated
+    pool-1-thread-2 Exiting
+    pool-1-thread-8 Exiting
+    pool-1-thread-9 Exiting
+    pool-1-thread-6 Exiting
+    pool-1-thread-4 Exiting
+    pool-1-thread-3 Exiting
+    pool-1-thread-10 Exiting
+    pool-1-thread-1 Exiting
+    pool-1-thread-5 Exiting
+    pool-1-thread-7 Exiting
+    ====== Ended KFA Sigterm Handler ======
+    Waiting for threads to end...
+    All threads ended
 
 The process will terminate. 
 
